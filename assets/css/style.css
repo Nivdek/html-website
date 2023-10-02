@@ -1,0 +1,29 @@
+/* General Styles*/
+body {
+    background: url('../images/site-background.jpg');
+}
+
+/* Header */
+header {
+    background: url('../images/header-background.jpg') ;
+    width: 100%;
+    position: fixed;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+/* Main Content */
+.current-book {
+    max-width:300px;
+    max-height: 300px;
+}
+    
