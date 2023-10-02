@@ -34,16 +34,32 @@
     <!-- Main Content -->
     <main>
         <!-- Sign Up Form -->
-        <section>
-            <form>
+        <section id="sign-up">
+            <form id="signup-form" method="POST" action="">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" required>
                 <br>
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname">
+                <input type="text" id="lname" name="lname" required>
                 <br>
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="english">English</label>
+                        <input type="radio" name="reading-language" id="english" value="english" required checked>
+                    </div>
+                    <div>
+                        <label for="native">Native</label>
+                        <input type="radio" name="reading-language" id="native" value="native" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="reading-language" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Join Us!</button>
             </form>
 
         </section>
