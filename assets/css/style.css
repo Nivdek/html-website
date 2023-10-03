@@ -1,6 +1,9 @@
 /* General Styles*/
 body {
     background: url('../images/site-background.jpg');
+    min-height: 100vh;
+    position: relative;
+
 }
 
 /* Header */
@@ -8,6 +11,8 @@ header {
     background: url('../images/header-background.jpg') ;
     width: 100%;
     position: fixed;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -36,10 +41,29 @@ nav {
 
 .book-box-container {
     display: flex;
-    width: 50%;
+    width: 100%;
 
 }
 
 .book-box {
     flex: 1;
+}
+
+/* Footer Section*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #3a3a3a;
+}
+
+#club-groups {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#club-groups i {
+    font-size: 200%;
+    color: #ffffff;
 }
