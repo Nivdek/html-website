@@ -8,8 +8,8 @@ body {
     background: url('../images/site-background.jpg');
     background-attachment: fixed; /* swap between fixed or local when all page content is in place */
     min-height: 100vh;
-    position: relative;
-
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -20,7 +20,7 @@ header {
     height: 200px;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: fixed;
 }
 
 header a {
@@ -29,6 +29,9 @@ header a {
 }
 
 #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 200%;
     color: #ffffff;
     /* how to effectively set text shadow was found on linuxhint.com*/
@@ -43,7 +46,9 @@ header a {
 #navigation {
     font-size: 120%;
     list-style-type: none;
-    float: right;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #navigation a {
@@ -58,20 +63,34 @@ nav {
 }
 
 /* Main Content */
+main {
+    margin-top: 225px;
+    display: flex;
+    flex-direction: column;
+}
+
+#current-book-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
 .current-book {
     max-width:300px;
     max-height: 300px;
 }
 
+#about-container {
+    width: 50%;
+}
 
 /* Previously Read Section */
 #previously-read {
     display: flex;
-}
-
-.previous-book {
-    max-width: 200px;
-    max-height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .book-box-container {
@@ -82,7 +101,13 @@ nav {
 .book-box {
     flex: 1;
     flex-basis: 33.33333%;
+}
+
+.previous-book {
+    max-width: 200px;
+    max-height: 200px;
     justify-content: center;
+    align-items: center;
 }
 
 /* Footer Section*/
