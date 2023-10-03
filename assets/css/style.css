@@ -26,4 +26,20 @@ nav {
     max-width:300px;
     max-height: 300px;
 }
-    
+
+
+/* Previously Read Section */
+.previous-book {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.book-box-container {
+    display: flex;
+    width: 50%;
+
+}
+
+.book-box {
+    flex: 1;
+}
