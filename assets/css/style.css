@@ -12,16 +12,36 @@ header {
     background: url('../images/header-background.jpg') ;
     background-size: contain;
     width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-    text-align: center;
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    font-size: 200%;
+    color: #ffffff;
+    /* how to effectively set text shadow was found on linuxhint.com*/
+    text-shadow:
+            -3px 0px 0px black,
+            3px 0px 0px black,
+            0px -3px 0px black,
+            0px 3px 0px black;
+    color: white;
+}
+
+#navigation {
+    font-size: 120%;
+    list-style-type: none;
 }
 
 nav {
-    display: flex;
+    position: absolute;
     width: 100%;
-    flex-direction: row;
 }
 
 /* Main Content */
