@@ -1,6 +1,7 @@
 /* General Styles*/
 body {
     background: url('../images/site-background.jpg');
+    background-attachment: fixed; /* swap between fixed or local when all page content is in place */
     min-height: 100vh;
     position: relative;
 
@@ -10,7 +11,8 @@ body {
 header {
     background: url('../images/header-background.jpg') ;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     
@@ -34,19 +36,23 @@ nav {
 
 
 /* Previously Read Section */
+#previously-read {
+    display: flex;
+}
+
 .previous-book {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .book-box-container {
     display: flex;
-    width: 100%;
-
+    flex-wrap: wrap;
 }
 
 .book-box {
     flex: 1;
+    flex-basis: 33.33333%;
 }
 
 /* Footer Section*/
