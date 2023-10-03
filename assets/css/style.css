@@ -1,4 +1,9 @@
 /* General Styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: url('../images/site-background.jpg');
     background-attachment: fixed; /* swap between fixed or local when all page content is in place */
@@ -15,6 +20,7 @@ header {
     height: 200px;
     display: flex;
     justify-content: center;
+    position: absolute;
 }
 
 header a {
@@ -37,6 +43,13 @@ header a {
 #navigation {
     font-size: 120%;
     list-style-type: none;
+    float: right;
+}
+
+#navigation a {
+    display: block;
+    color: white;
+    text-align: center;
 }
 
 nav {
@@ -83,7 +96,7 @@ footer {
 #club-groups {
     display: flex;
     justify-content: space-evenly;
-    
+    list-style-type: none;
 }
 
 #club-groups i {
