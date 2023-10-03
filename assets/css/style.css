@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Uncial+Antiqua&family=Young+Serif&display=swap');
+
 /* General Styles*/
 * {
     margin: 0;
@@ -29,6 +32,7 @@ header a {
 }
 
 #logo {
+    font-family: 'Uncial Antiqua', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +73,19 @@ main {
     flex-direction: column;
 }
 
+.read-head {
+    font-family: 'Uncial Antiqua', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+}
+
+p {
+    font-family: 'Young Serif', serif;
+}
+
 #current-book-container {
     width: 50%;
     display: flex;
@@ -82,8 +99,21 @@ main {
     max-height: 300px;
 }
 
+#about {
+    margin-top: 175px;
+}
+
 #about-container {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#about-container p {
+    font-size: 200%;
+    color: red;
 }
 
 /* Previously Read Section */
