@@ -25,6 +25,7 @@ header {
     display: flex;
     justify-content:space-around;
     position: fixed;
+    padding: 20px;
     
 }
 
@@ -55,10 +56,13 @@ header a {
 nav {
     display: flex;
     width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-#navigation {    
-    width: 100%;
+#navigation {
+    display: flex;
 }
 
 #navigation li {
@@ -70,6 +74,10 @@ nav {
 main {
     display: flex;
     flex-direction: column;
+}
+
+#who-are-we {
+    margin-top: 35px;
 }
 
 .read-head {
@@ -117,7 +125,7 @@ p {
 }
 
 #about {
-    margin-top: 175px;
+    margin-top: 250px;
     padding: 25px;
 }
 
@@ -142,10 +150,14 @@ p {
     margin-top: 400px;
 }
 
+#pre-read-head {
+    display: fixed  ;
+}
+
 .book-box-container {
     display: flex;
     flex-wrap: wrap;
-    column-count: 3;
+    width: 100%;
 }
 
 .book-box {
@@ -154,8 +166,8 @@ p {
 }
 
 .previous-book {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 450px;
+    max-height: 450px;
     justify-content: center;
     align-items: center;
 }
