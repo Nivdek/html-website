@@ -15,6 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     background-size: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header */
@@ -170,7 +172,7 @@ p {
         color: white;
 }
 
-/* Previously Read Section */
+/* Previously Read Page */
 #previously-read {
     display: flex;
     justify-content: center;
@@ -208,7 +210,7 @@ p {
     max-height: 300px;
 }
 
-/* Sign Up Section */
+/* Sign Up Page */
 #signup-main {
     display: flex;
     flex-wrap: wrap;
