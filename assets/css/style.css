@@ -3,6 +3,7 @@
 
 /* General Styles*/
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -23,11 +24,11 @@ header {
     width: 100%;
     height: 200px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     position: fixed;
     padding: 20px;
     z-index: 99;
-    
+    align-items: baseline;
 }
 
 header a {
@@ -50,35 +51,24 @@ header a {
             0px -3px 0px black,
             0px 3px 0px black;
     color: white;
-    width: 100%;
 }
 
 /* Navigation Section */
 nav {
-    display: flex;
     width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    display: flex;
 }
 
 #navigation {
-    display: flex;
-}
-
-#navigation li {
     list-style-type: none;
-    font-size: 200%;
 }
 
 /* Main Content */
 main {
     display: flex;
     flex-direction: column;
-}
-
-#who-are-we {
-    margin-top: 35px;
+    margin-top: 240px;
 }
 
 .read-head {
@@ -124,7 +114,6 @@ p {
 }
 
 #about {
-    margin-top: 250px;
     padding: 25px;
 }
 
@@ -146,7 +135,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
     position: relative;
     flex-wrap: wrap;
 }
@@ -174,6 +162,34 @@ p {
     max-height: 450px;
 }
 
+/* Sign Up Section */
+#signup-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    vertical-align: auto;
+}
+#signup-section {
+    display: flex;
+    flex-direction: column;
+    min-width: 20%;
+    align-self: flex-start;
+    background-color: grey;
+}
+
+#join-section {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    min-width: 30%;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+#signup-form {
+    font-size: 120%;
+}
 /* Footer Section*/
 footer {
     margin-top: auto;
