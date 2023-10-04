@@ -68,7 +68,6 @@ nav {
 
 /* Main Content */
 main {
-    margin-top: 225px;
     display: flex;
     flex-direction: column;
 }
@@ -76,6 +75,13 @@ main {
 .read-head {
     font-family: 'Uncial Antiqua', cursive;
     text-align: center;
+    text-shadow:
+    -3px 0px 0px black,
+    3px 0px 0px black,
+    0px -3px 0px black,
+    0px 3px 0px black;
+    color: white;
+    padding: 15px;
 }
 
 h2 {
@@ -86,21 +92,33 @@ p {
     font-family: 'Young Serif', serif;
 }
 
+#currently-reading {
+    padding: 25px;
+}
+
 #current-book-container {
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:auto;
+    margin: auto;
+}
+
+#current-book-container p {
+    display: flex;
+    background-color: white;
 }
 
 .current-book {
     max-width:300px;
     max-height: 300px;
+    display: flex;
+}
+
+.book-name {
 }
 
 #about {
     margin-top: 175px;
+    padding: 25px;
 }
 
 #about-container {
