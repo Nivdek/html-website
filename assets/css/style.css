@@ -99,25 +99,39 @@ p {
     font-family: 'Young Serif', serif;
 }
 
+.book-name {
+    font-family: 'Young Serif', serif;
+}
+
 #currently-reading {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #current-book-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #current-book-container p {
     display: flex;
-    background-color: white;
+    background-color: rgba(66, 65, 65, 0.7);
 }
 
 .current-book {
     max-width:300px;
     max-height: 300px;
     display: flex;
+}
+
+.current-book-text {
+    width: 50%;
 }
 
 #about {
