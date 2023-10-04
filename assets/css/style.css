@@ -101,6 +101,12 @@ p {
 
 .book-name {
     font-family: 'Young Serif', serif;
+    text-shadow:
+        -3px 0px 0px black,
+        3px 0px 0px black,
+        0px -3px 0px black,
+        0px 3px 0px black;
+        color: white;
 }
 
 #currently-reading {
@@ -131,6 +137,13 @@ p {
 }
 
 .current-book-text {
+    font-family: 'Young Serif', serif;
+    text-shadow:
+        -3px 0px 0px black,
+        3px 0px 0px black,
+        0px -3px 0px black,
+        0px 3px 0px black;
+        color: white;
     width: 50%;
 }
 
@@ -147,8 +160,14 @@ p {
 }
 
 #about-container p {
-    font-size: 200%;
-    color: red;
+    font-size: 150%;
+    font-family: 'Young Serif', serif;
+    text-shadow:
+        -3px 0px 0px black,
+        3px 0px 0px black,
+        0px -3px 0px black,
+        0px 3px 0px black;
+        color: white;
 }
 
 /* Previously Read Section */
