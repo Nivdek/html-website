@@ -28,7 +28,7 @@ header {
     position: fixed;
     padding: 20px;
     z-index: 99;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -56,13 +56,13 @@ header a {
 /* Navigation Section */
 nav {
     width: 100%;
-    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
 }
 
-#navigation {
-    list-style-type: none;
-}
 
 /* Main Content */
 main {
