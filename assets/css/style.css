@@ -188,18 +188,24 @@ p {
 
 .book-box-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 75px;
+    width: 100%;
 }
 
 .book-box {
     flex: 1;
     flex-basis: 33.33333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .previous-book {
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* Sign Up Section */
