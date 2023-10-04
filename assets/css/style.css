@@ -26,6 +26,7 @@ header {
     justify-content:space-around;
     position: fixed;
     padding: 20px;
+    z-index: 99;
     
 }
 
@@ -90,6 +91,7 @@ main {
     0px 3px 0px black;
     color: white;
     padding: 15px;
+    text-align: center;
 }
 
 h2 {
@@ -121,9 +123,6 @@ p {
     display: flex;
 }
 
-.book-name {
-}
-
 #about {
     margin-top: 250px;
     padding: 25px;
@@ -147,17 +146,22 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 400px;
+    margin-top: 300px;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 #pre-read-head {
-    display: fixed  ;
+    display: block;
+    position: absolute;
+    top: 0;
+
 }
 
 .book-box-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    margin-top: 75px;
 }
 
 .book-box {
@@ -168,8 +172,6 @@ p {
 .previous-book {
     max-width: 450px;
     max-height: 450px;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Footer Section*/
