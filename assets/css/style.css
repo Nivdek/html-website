@@ -210,7 +210,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    vertical-align: auto;
     margin-top: 50px;
 }
 #signup-section {
