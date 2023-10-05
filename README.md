@@ -57,4 +57,5 @@ The live link can be found here - <https://nivdek.github.io/html-website/index.h
 ## Credits
 
 - Site background and header images were downloaded from <https://www.pexels.com/>
+- Footer icons were taken from <https://www.fontawesome.com/icons>
 - All code for the project is original and written by hand, though the "Love Running"-project was used as somewhat of a reference point for style choices.
