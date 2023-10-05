@@ -211,31 +211,55 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     vertical-align: auto;
+    margin-top: 50px;
 }
 #signup-section {
     display: flex;
     flex-direction: column;
     min-width: 20%;
     align-self: flex-start;
-    background-color: grey;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 175px;
 }
 
 #join-section {
-    background-color: grey;
+    background-color: rgba(66, 65, 65, 0.7);
     display: flex;
     flex-direction: column;
-    max-width: 30%;
-    min-width: 30%;
-    align-items: flex-end;
+    align-content: flex-end;
     align-self: flex-end;
+    width: 60%;
+    position: relative;
+    margin-right: 50px;
 }
+
+#join-text-container {
+    font-family: 'Young Serif', serif;
+    text-shadow:
+        -3px 0px 0px black,
+        3px 0px 0px black,
+        0px -3px 0px black,
+        0px 3px 0px black;
+    color: white;
+}
+
 
 #signup-form {
     font-size: 120%;
+    font-family: 'Young Serif', serif;
+    text-shadow:
+    -3px 0px 0px black,
+    3px 0px 0px black,
+    0px -3px 0px black,
+    0px 3px 0px black;
+    color: white;
 }
+    
 /* Footer Section*/
 footer {
     margin-top: auto;
+    width: 100%;
 }
 
 #club-groups {
